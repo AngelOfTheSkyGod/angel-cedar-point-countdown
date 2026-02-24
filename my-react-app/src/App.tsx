@@ -88,53 +88,53 @@ function App() {
                 }}
             />
             <Stack alignItems={"center"} gap={1}>
-                <Typography variant="h2" gutterBottom sx={{ color: "#A3FF12" }}>
+                <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
                     Go to Cedar Point!
                 </Typography>
                 <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
-                    <Typography variant="h3" gutterBottom sx={{ color: "white" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.weeks}
                     </Typography>
-                    <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
                         Weeks
                     </Typography>
                 </Stack>
                 <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
-                    <Typography variant="h3" gutterBottom sx={{ color: "white" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.days}
                     </Typography>
-                    <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
                         Days
                     </Typography>
                 </Stack>
                 <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
-                    <Typography variant="h3" gutterBottom sx={{ color: "white" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.hours}
                     </Typography>
-                    <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
                         Hours
                     </Typography>
                 </Stack>
                 <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
-                    <Typography variant="h3" gutterBottom sx={{ color: "white" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.minutes}
                     </Typography>
-                    <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
                         Minutes
                     </Typography>
                 </Stack>
                 <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
-                    <Typography variant="h3" gutterBottom sx={{ color: "white" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.seconds}
                     </Typography>
-                    <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
+                    <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
                         Seconds
                     </Typography>
                 </Stack>
-                <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
+                <Typography variant="h5" gutterBottom sx={{ color: "#A3FF12" }}>
                     Until Saturday, September 5th, 2026
                 </Typography>
-                <Typography variant="h4" gutterBottom sx={{ color: "#A3FF12" }}>
+                <Typography variant="h5" gutterBottom sx={{ color: "#A3FF12" }}>
                     {dateTimeString}
                 </Typography>
             </Stack>
