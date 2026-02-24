@@ -87,11 +87,11 @@ function App() {
                     zIndex: -1
                 }}
             />
-            <Stack alignItems={"center"} gap={1}>
+            <Stack alignItems={"center"} gap={3}>
                 <Typography variant="h3" gutterBottom sx={{ color: "#A3FF12" }}>
                     Go to Cedar Point!
                 </Typography>
-                <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
+                <Stack  direction={"row"} gap={2}>
                     <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.weeks}
                     </Typography>
@@ -99,7 +99,7 @@ function App() {
                         Weeks
                     </Typography>
                 </Stack>
-                <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
+                <Stack  direction={"row"} gap={2}>
                     <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.days}
                     </Typography>
@@ -107,7 +107,7 @@ function App() {
                         Days
                     </Typography>
                 </Stack>
-                <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
+                <Stack  direction={"row"} gap={2}>
                     <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.hours}
                     </Typography>
@@ -115,7 +115,7 @@ function App() {
                         Hours
                     </Typography>
                 </Stack>
-                <Stack margin={"0 0 4rem 0"} direction={"row"} gap={2}>
+                <Stack direction={"row"} gap={2}>
                     <Typography variant="h4" gutterBottom sx={{ color: "white" }}>
                         {remaining.minutes}
                     </Typography>
